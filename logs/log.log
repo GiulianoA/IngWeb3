@@ -451,3 +451,183 @@ org.springframework.web.multipart.MultipartException: Current request is not a m
 23-10-2018 15:18:09.405 a.edu.iua.ingweb3.Ingweb3Application.logStarted Started Ingweb3Application in 1.259 seconds (JVM running for 874.447)
 23-10-2018 15:18:09.407 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$eae7ffba.run DataSource=HikariDataSource (HikariPool-9)
 23-10-2018 15:18:09.407 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$eae7ffba.run Los archivos se subirán en: subidos
+11-03-2019 16:19:39.720 a.edu.iua.ingweb3.Ingweb3Application.logStarting Starting Ingweb3Application on giuliano-Aspire-E5-571 with PID 4612 (/home/giuliano/eclipse-workspace/ingWeb3/target/classes started by giuliano in /home/giuliano/eclipse-workspace/ingWeb3)
+11-03-2019 16:19:39.723 a.edu.iua.ingweb3.Ingweb3Application.logStarting Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+11-03-2019 16:19:39.734 a.edu.iua.ingweb3.Ingweb3Application.logStartupProfileInfo No active profile set, falling back to default profiles: default
+11-03-2019 16:19:44.203 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-03-2019 16:19:44.761 a.edu.iua.ingweb3.Ingweb3Application.logStarted Started Ingweb3Application in 6.141 seconds (JVM running for 7.229)
+11-03-2019 16:19:44.764 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$70e052ee.run DataSource=HikariDataSource (HikariPool-1)
+11-03-2019 16:19:44.765 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$70e052ee.run Los archivos se subirán en: subidos
+11-03-2019 16:20:14.001 o.s.web.servlet.PageNotFound.handleHttpRequestMethodNotSupported Request method 'GET' not supported
+11-03-2019 16:20:14.002 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+11-03-2019 16:20:24.872 o.s.web.servlet.PageNotFound.handleHttpRequestMethodNotSupported Request method 'GET' not supported
+11-03-2019 16:20:24.873 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+11-03-2019 16:23:44.976 o.s.web.servlet.PageNotFound.handleHttpRequestMethodNotSupported Request method 'GET' not supported
+11-03-2019 16:23:44.977 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+11-03-2019 16:36:21.945 a.edu.iua.ingweb3.Ingweb3Application.logStarting Starting Ingweb3Application on giuliano-Aspire-E5-571 with PID 6891 (/home/giuliano/eclipse-workspace/ingWeb3/target/classes started by giuliano in /home/giuliano/eclipse-workspace/ingWeb3)
+11-03-2019 16:36:21.947 a.edu.iua.ingweb3.Ingweb3Application.logStarting Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+11-03-2019 16:36:21.949 a.edu.iua.ingweb3.Ingweb3Application.logStartupProfileInfo No active profile set, falling back to default profiles: default
+11-03-2019 16:36:25.992 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-03-2019 16:36:26.538 o.a.catalina.core.StandardService.log Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at ar.edu.iua.ingweb3.Ingweb3Application.main(Ingweb3Application.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.SocketException: Permiso denegado
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+11-03-2019 16:36:26.543 o.a.c.loader.WebappClassLoaderBase.log The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+11-03-2019 16:36:26.543 o.a.c.loader.WebappClassLoaderBase.log The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+11-03-2019 16:36:26.552 o.s.b.d.LoggingFailureAnalysisReporter.report 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+11-03-2019 16:38:52.527 a.edu.iua.ingweb3.Ingweb3Application.logStarting Starting Ingweb3Application on giuliano-Aspire-E5-571 with PID 2212 (/home/giuliano/eclipse-workspace/ingWeb3/target/classes started by giuliano in /home/giuliano/eclipse-workspace/ingWeb3)
+11-03-2019 16:38:52.529 a.edu.iua.ingweb3.Ingweb3Application.logStarting Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+11-03-2019 16:38:52.531 a.edu.iua.ingweb3.Ingweb3Application.logStartupProfileInfo No active profile set, falling back to default profiles: default
+11-03-2019 16:38:57.779 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-03-2019 16:38:58.307 o.a.catalina.core.StandardService.log Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at ar.edu.iua.ingweb3.Ingweb3Application.main(Ingweb3Application.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.SocketException: Permiso denegado
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+11-03-2019 16:38:58.312 o.a.c.loader.WebappClassLoaderBase.log The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+11-03-2019 16:38:58.313 o.a.c.loader.WebappClassLoaderBase.log The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+11-03-2019 16:38:58.322 o.s.b.d.LoggingFailureAnalysisReporter.report 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+11-03-2019 16:39:30.508 a.edu.iua.ingweb3.Ingweb3Application.logStarting Starting Ingweb3Application on giuliano-Aspire-E5-571 with PID 2316 (/home/giuliano/eclipse-workspace/ingWeb3/target/classes started by giuliano in /home/giuliano/eclipse-workspace/ingWeb3)
+11-03-2019 16:39:30.510 a.edu.iua.ingweb3.Ingweb3Application.logStarting Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+11-03-2019 16:39:30.512 a.edu.iua.ingweb3.Ingweb3Application.logStartupProfileInfo No active profile set, falling back to default profiles: default
+11-03-2019 16:39:34.455 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-03-2019 16:39:34.976 a.edu.iua.ingweb3.Ingweb3Application.logStarted Started Ingweb3Application in 4.857 seconds (JVM running for 5.538)
+11-03-2019 16:39:34.979 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$81b3232b.run DataSource=HikariDataSource (HikariPool-1)
+11-03-2019 16:39:34.979 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$81b3232b.run Los archivos se subirán en: subidos
+11-03-2019 16:42:50.144 a.edu.iua.ingweb3.Ingweb3Application.logStarting Starting Ingweb3Application on giuliano-Aspire-E5-571 with PID 2923 (/home/giuliano/eclipse-workspace/ingWeb3/target/classes started by giuliano in /home/giuliano/eclipse-workspace/ingWeb3)
+11-03-2019 16:42:50.146 a.edu.iua.ingweb3.Ingweb3Application.logStarting Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+11-03-2019 16:42:50.148 a.edu.iua.ingweb3.Ingweb3Application.logStartupProfileInfo No active profile set, falling back to default profiles: default
+11-03-2019 16:42:55.092 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-03-2019 16:42:55.724 a.edu.iua.ingweb3.Ingweb3Application.logStarted Started Ingweb3Application in 6.188 seconds (JVM running for 7.112)
+11-03-2019 16:42:55.728 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$76bc2b1c.run DataSource=HikariDataSource (HikariPool-1)
+11-03-2019 16:42:55.729 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$76bc2b1c.run Los archivos se subirán en: subidos
+11-03-2019 16:44:06.553 a.edu.iua.ingweb3.Ingweb3Application.logStarting Starting Ingweb3Application on giuliano-Aspire-E5-571 with PID 3122 (/home/giuliano/eclipse-workspace/ingWeb3/target/classes started by giuliano in /home/giuliano/eclipse-workspace/ingWeb3)
+11-03-2019 16:44:06.563 a.edu.iua.ingweb3.Ingweb3Application.logStarting Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+11-03-2019 16:44:06.566 a.edu.iua.ingweb3.Ingweb3Application.logStartupProfileInfo No active profile set, falling back to default profiles: default
+11-03-2019 16:44:11.222 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-03-2019 16:44:11.871 a.edu.iua.ingweb3.Ingweb3Application.logStarted Started Ingweb3Application in 5.864 seconds (JVM running for 6.787)
+11-03-2019 16:44:11.873 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$b3626b3f.run DataSource=HikariDataSource (HikariPool-1)
+11-03-2019 16:44:11.873 a.e.i.i.Ingweb3Application$$EnhancerBySpringCGLIB$$b3626b3f.run Los archivos se subirán en: subidos
